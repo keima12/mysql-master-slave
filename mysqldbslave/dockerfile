@@ -1,0 +1,5 @@
+FROM mysql:5.7.39-debian
+
+COPY ./slave.cnf /etc/mysql/conf.d/
+RUN chown mysql /etc/mysql/conf.d
+RUN chown mysql /etc/mysql/conf.d/slave.cnf

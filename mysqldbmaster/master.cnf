@@ -1,0 +1,7 @@
+[mysqld] 
+server-id = 1
+#rpl_semi_sync_master_enabled=1
+#rpl_semi_sync_master_timeout=20000
+log-bin
+enforce-gtid-consistency=ON
+gtid-mode=ON

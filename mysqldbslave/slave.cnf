@@ -1,0 +1,7 @@
+[mysqld]
+server-id = 2
+#rpl_semi_sync_slave_enabled=1
+log-bin
+enforce-gtid-consistency=ON
+gtid-mode=ON
+read_only
